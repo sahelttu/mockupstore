@@ -1,0 +1,25 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+    width: 100%;
+    background-color: aqua;
+}
+
+#navbar-title{
+    font-size: 48px;
+    margin-left: 0.25em;
+}
+
+#navbar-links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+}
+
+.links-group{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3em;
+}
