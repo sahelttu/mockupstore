@@ -1,0 +1,11 @@
+#linkbutton-main{
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+}
+
+#linkbutton-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}

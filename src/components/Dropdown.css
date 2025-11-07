@@ -1,0 +1,33 @@
+#dropdown-button{
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown-main{
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 0.2);
+    padding: 0.5em;
+}
+
+.dropdown-main:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 0.5em;
+}

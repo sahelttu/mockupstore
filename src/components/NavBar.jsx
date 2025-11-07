@@ -1,4 +1,6 @@
 import "./NavBar.css";
+import { Dropdown } from "./Dropdown";
+import { LinkButton } from "./LinkButton";
 
 export function NavBar(){
     return(
@@ -6,12 +8,12 @@ export function NavBar(){
             <h3 id="navbar-title">BuyStuff</h3>
             <div id="navbar-links">
                 <div className="links-group">
-                    <a className="link-button" href="">Products</a>
-                    <a className="link-button" href="">About</a>
+                    <Dropdown />
+                    <LinkButton href="" title="About" />
                 </div>
                 <div className="links-group">
-                    <a className="link-button" href="">Account</a>
-                    <a className="link-button" href="">Something</a>
+                    <LinkButton href="" title="Account" />
+                    <LinkButton href="" title="Something" />
                 </div>
             </div>
         </div>
